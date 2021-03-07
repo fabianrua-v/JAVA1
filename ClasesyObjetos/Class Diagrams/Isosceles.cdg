@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Isosceles">
+  <ClassDiagramComponents>
+    <Class name="Isosceles" package="" visibility="public" xPosition="493.0" yPosition="44.0">
+      <Fields>
+        <Field name="Base" type="double" visibility="private"/>
+        <Field name="Altura" type="double" visibility="private"/>
+        <Field name="angulo1" type="double" visibility="private"/>
+        <Field name="angulo2" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getBase" returnType="double" visibility="public"/>
+        <Method name="setBase" returnType="void" visibility="public"/>
+        <Method name="getAltura" returnType="double" visibility="public"/>
+        <Method name="setAltura" returnType="void" visibility="public"/>
+        <Method name="getAngulo1" returnType="double" visibility="public"/>
+        <Method name="setAngulo1" returnType="void" visibility="public"/>
+        <Method name="getAngulo2" returnType="double" visibility="public"/>
+        <Method name="setangulo2" returnType="void" visibility="public"/>
+        <Method name="calcularArea" returnType="double" visibility="public"/>
+        <Method name="calcularAngulo" returnType="double" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

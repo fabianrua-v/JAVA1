@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="inventarioTienda">
+  <ClassDiagramComponents>
+    <Class name="Producto" package="" visibility="public" xPosition="111.0" yPosition="45.0">
+      <Fields>
+        <Field name="codigo" type="double" visibility="private"/>
+        <Field name="nombre" type="string" visibility="private"/>
+        <Field name="precioCompra" type="float" visibility="private"/>
+        <Field name="porcentajeUtilidad" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getcodigo" returnType="double" visibility="public"/>
+        <Method name="setcodigo" returnType="void" visibility="public"/>
+        <Method name="getnombre" returnType="string" visibility="public"/>
+        <Method name="setnombre" returnType="void" visibility="public"/>
+        <Method name="getprecioCompra" returnType="float" visibility="public"/>
+        <Method name="setprecioCompra" returnType="void" visibility="public"/>
+        <Method name="getporcentajeUtilidad" returnType="float" visibility="public"/>
+        <Method name="setporcentajeUtilidad" returnType="void" visibility="public"/>
+        <Method name="getprecioVenta" returnType="float" visibility="public"/>
+        <Method name="setprecioVenta" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="clasesyObjetos">
+  <ClassDiagramComponents>
+    <Class name="PruebaCoche " package="" visibility="public" xPosition="271.0" yPosition="118.0">
+      <Fields>
+        <Field name="puerta" type="int" visibility="private"/>
+        <Field name="numeroCaballo" type="int" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="matricula" type="integer" visibility="private"/>
+        <Field name="marca" type="string" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getpuerta" returnType="int" visibility="public"/>
+        <Method name="setpuerta" returnType="void" visibility="public"/>
+        <Method name="getnumeroCaballo" returnType="int" visibility="public"/>
+        <Method name="setnumeroCaballo" returnType="void" visibility="public"/>
+        <Method name="getmatricula" returnType="integer" visibility="public"/>
+        <Method name="setmatricula" returnType="void" visibility="public"/>
+        <Method name="getcolor" returnType="String" visibility="public"/>
+        <Method name="setcolor" returnType="void" visibility="public"/>
+        <Method name="getmarca" returnType="String" visibility="public"/>
+        <Method name="setmarca" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Libro">
+  <ClassDiagramComponents>
+    <Class name="Libro" package="" visibility="public" xPosition="209.0" yPosition="98.0">
+      <Fields>
+        <Field name="pagina" type="int" visibility="private"/>
+        <Field name="titulo" type="String" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="ISBN" type="string" visibility="private"/>
+        <Field name="primerNombre" type="String" visibility="private"/>
+        <Field name="segundoNombre" type="String" visibility="private"/>
+        <Field name="primerApellido" type="String" visibility="private"/>
+        <Field name="ciudad" type="String" visibility="private"/>
+        <Field name="Pais" type="string" visibility="private"/>
+        <Field name="Editorial" type="String" visibility="private"/>
+        <Field name="Edicion" type="string" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="pagina" returnType="get" visibility="public"/>
+        <Method name="setpagina" returnType="void" visibility="public"/>
+        <Method name="titulo" returnType="get" visibility="public"/>
+        <Method name="settitulo" returnType="void" visibility="public"/>
+        <Method name="nombre" returnType="get" visibility="public"/>
+        <Method name="setnombre" returnType="void" visibility="public"/>
+        <Method name="ISBN" returnType="get" visibility="public"/>
+        <Method name="setISBN" returnType="void" visibility="public"/>
+        <Method name="primernombre" returnType="get" visibility="public"/>
+        <Method name="setprimerNombre" returnType="void" visibility="public"/>
+        <Method name="segundoNombre" returnType="get" visibility="public"/>
+        <Method name="setsegundoNombre" returnType="void" visibility="public"/>
+        <Method name="primerApellido" returnType="get" visibility="public"/>
+        <Method name="setprimerApellido" returnType="void" visibility="public"/>
+        <Method name="Ciudad" returnType="get" visibility="public"/>
+        <Method name="setCiudad" returnType="void" visibility="public"/>
+        <Method name="Pais" returnType="get" visibility="public"/>
+        <Method name="setPais" returnType="void" visibility="public"/>
+        <Method name="Editorial" returnType="get" visibility="public"/>
+        <Method name="setEditorial" returnType="void" visibility="public"/>
+        <Method name="Edicion" returnType="get" visibility="public"/>
+        <Method name="setEdicion" returnType="void" visibility="public"/>
+        <Method name="untitledMethod" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
